@@ -1,5 +1,7 @@
 # shallowInterFoam
 
+OpenFOAM version: foam-extend-3.1
+
 Description
 
 Coupled 2D shallow water and 3D Navier-Stokes solver with free surface, based on the 2D solver shallowFoam and the 3D solver interFoam. The explicit bi-directional coupling is implemented via the boundary conditions. For a description of the solver and as reference please see:
