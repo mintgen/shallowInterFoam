@@ -1,0 +1,36 @@
+# 1 "options"
+# 1 "<command-line>"
+
+
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+
+# 17 "/usr/include/stdc-predef.h" 3 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 2 "<command-line>" 2
+# 1 "options"
+EXE_INC =     -Iregion2d     -Iregion3d     -Iinclude     -IderivedFvPatchFields/sifAlpha1     -IderivedFvPatchFields/sifDischarge     -IderivedFvPatchFields/sifFlowdepth     -IderivedFvPatchFields/sifMappedFvPatch     -IderivedFvPatchFields/sifMappedPolyPatch     -Iinclude     -I$(LIB_SRC)/meshTools/lnInclude     -I$(LIB_SRC)/lagrangian/basic/lnInclude     -I$(LIB_SRC)/finiteVolume/lnInclude     -I$(LIB_SRC)/transportModels     -I$(LIB_SRC)/transportModels/incompressible/lnInclude     -I$(LIB_SRC)/transportModels/interfaceProperties/lnInclude     -I$(LIB_SRC)/turbulenceModels/incompressible/turbulenceModel      $(WM_DECOMP_INC)   
+# 19 "options"
+
+EXE_LIBS =     -lfiniteVolume     -linterfaceProperties     -lmeshTools     -lincompressibleTransportModels     -lincompressibleTurbulenceModel     -lincompressibleRASModels     -lincompressibleLESModels     -llduSolvers     $(WM_DECOMP_LIBS)

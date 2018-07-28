@@ -1,0 +1,51 @@
+# 1 "files"
+# 1 "<command-line>"
+
+
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+
+# 17 "/usr/include/stdc-predef.h" 3 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 2 "<command-line>" 2
+# 1 "files"
+include/regionProperties.C
+
+derivedFvPatchFields/abflussWasserstandOutlet/abflussWasserstandOutletFvPatchVectorField.C
+derivedFvPatchFields/energieHoeheInlet/energieHoeheInletFvPatchVectorField.C
+derivedFvPatchFields/kritischH/kritischHFvPatchScalarField.C
+derivedFvPatchFields/sifAlpha1/sifAlpha1FvPatchScalarField.C
+derivedFvPatchFields/sifDischarge/sifDischargeFvPatchVectorField.C
+derivedFvPatchFields/sifFlowdepth/sifFlowdepthFvPatchScalarField.C
+derivedFvPatchFields/sifMappedFvPatch/sifMappedFvPatch.C
+derivedFvPatchFields/sifMappedPolyPatch/sifMappedPatchBase.C
+derivedFvPatchFields/sifMappedPolyPatch/sifMappedPolyPatch.C
+derivedFvPatchFields/sifPressure/sifPressureFvPatchScalarField.C
+derivedFvPatchFields/sifVelocity/sifVelocityFvPatchVectorField.C
+derivedFvPatchFields/timeVaryingVolumenStromInlet/timeVaryingVolumenStromInletFvPatchVectorField.C
+derivedFvPatchFields/volumenStromInlet/volumenStromInletFvPatchVectorField.C
+
+shallowInterFoam.C  
+
+EXE = $(FOAM_APPBIN)/shallowInterFoam

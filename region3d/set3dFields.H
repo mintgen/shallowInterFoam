@@ -1,0 +1,21 @@
+    const fvMesh& mesh = regions3d[i];
+
+    volScalarField& pd = pd3d[i];
+    volScalarField& alpha1 = alpha13d[i];
+    volVectorField& U = U3d[i];
+    const uniformDimensionedVectorField& g = g3d[i];
+    surfaceScalarField& phi = phi3d[i];
+    twoPhaseMixture& twoPhaseProperties = twoPhaseProperties3d[i];
+    const dimensionedScalar& rho1 = rho13d[i];
+    const dimensionedScalar& rho2 = rho23d[i];
+    volScalarField& rho = rho3d[i];
+    surfaceScalarField& rhoPhi = rhoPhi3d[i];
+    volScalarField& gh = gh3d[i];
+    surfaceScalarField& ghf = ghf3d[i];
+    volScalarField& p = p3d[i];
+    const label pdRefCell = pdRefCell3d[i];
+    const scalar pdRefValue = pdRefValue3d[i];
+    const scalar pRefValue = pRefValue3d[i];
+    interfaceProperties& interface = interface3d[i];
+    incompressible::turbulenceModel& turbulence = turbulence3d[i];
+    volSymmTensorField& Reff = Reff3d[i];
