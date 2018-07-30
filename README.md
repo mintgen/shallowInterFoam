@@ -13,7 +13,3 @@ A more detailed description can be found in:
 Mintgen, F.: Coupling of Shallow and Non-Shallow Flow Solvers - An Open Source Framework. 2018. PhD dissertation. Technical University of Munich.
 
 Copies of paper and thesis are available upon request to f.mintgen@tum.de
-
-Disclaimer
-
-This is research code, if I would have the time, I would rewrite a number of things. Parts of the boundary conditions, especially on the 3D side, are redundant or obsolete and thus can get a bit messy. A cleaned-up version of the 2D solver shallowFoam can be found on gitHub.
