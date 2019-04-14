@@ -12,4 +12,4 @@ A more detailed description can be found in:
 
 Mintgen, F.: Coupling of Shallow and Non-Shallow Flow Solvers - An Open Source Framework. 2018. PhD dissertation. Technical University of Munich.
 
-Copies of paper and thesis are available upon request to f.mintgen@tum.de
+Copies of paper and thesis are available upon request to gfmintgen@gmail.com
